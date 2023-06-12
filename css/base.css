@@ -33,3 +33,36 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.btn {
+    border: none;
+    outline: none;
+    color: var(--black);
+    background: var(--bgor);
+    width: 166px;
+    height: 46px;
+    border-radius: 5px;
+    font-family: var(--RM);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: var(--bg);
+    color: var(--white);
+}
+
+.head__title {
+    font-family: var(--CR);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--bgor);
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--bgor);
+    width: max-content;
+    text-transform: capitalize;
+    margin: 60px 0 56px;
+}
